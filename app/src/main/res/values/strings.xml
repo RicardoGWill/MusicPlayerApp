@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Music Player App</string>
+    <string name="song_title">Borderless</string>
+    <string name="artist">Aakash Gandhi</string>
+</resources>
