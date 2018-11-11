@@ -80,4 +80,35 @@
         android:text="2:50"
         app:layout_constraintEnd_toEndOf="@+id/seekBar"
         app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+    <TableRow
+        android:background="@color/colorPrimary"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/leftTimeTV">
+
+        <Button
+            android:id="@+id/prevB"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:drawable/ic_media_previous" />
+
+        <Button
+            android:id="@+id/playB"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:drawable/ic_media_play" />
+
+        <Button
+            android:id="@+id/nextB"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:drawable/ic_media_next" />
+    </TableRow>
 </android.support.constraint.ConstraintLayout>
